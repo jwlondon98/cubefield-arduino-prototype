@@ -10,5 +10,5 @@ Included in this repo is "JoystickMovement.ino" which contains the code to uploa
 ## Configuring the Unity project
 This Unity project's version is 2020.3.15f2. It may work in earlier or later versions of Unity, but I haven't tested that. Make sure that Project Settings -> Player -> Configuration -> API Compatiibility Level is set to .NET 4.x, otherwise you will likely have a compiler error and won't be able to run the game. This API level was needed for me to access the System.IO.Ports library.
 
-## About the Game
+# About the Game
 Note that (so far) the game logic that I've written for the Cubefield clone is very scrappy, as this was just a prototype for me to learn how to hook the arduino data into Unity. I'll clean up the code (soon) and improve the game a bit more before I consider this project completed.
